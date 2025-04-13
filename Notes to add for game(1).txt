@@ -1,0 +1,7 @@
+Sphere collider apart for laser for seeing things
+
+
+gets position of lasers collide with other
+this includes bullets and walls and powerups
+For walls get size, for powerups get type
+Robot does not know what powerups does and must learn by collecting it

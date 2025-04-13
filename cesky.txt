@@ -1,0 +1,77 @@
+Dobrý den,
+
+posílám popis hry arény robotů kde se roboti strojově učí bojovat proti sobě:
+
+    Čtvercová aréna na kterou se hledí z ptačí perspektivy
+     V dané aréně se nachází roboti který mají za úkol porazit jiné roboty a zůstat naživu
+    Roboti po sobě útočí střílením projektilů, které jsou fyzickými objekty, které se pohybují určitou konstantní
+
+      rychlostí, dokud do něčeho nenarazí nebo nevyletí ven z viditelného pohledu
+
+    Roboti musí navigovat ve vyznačené aréně která však nezabírá celý pohled kamery
+    Pokud robot opustí arénu musí se do ní vrátit v určitém limitu jinak ztrácí život
+    V aréně se nachází zdi skrz které roboti ani kulky nemůžou projít
+    Robot se však může pohybovat skrz jiného robota
+
+
+    Roboti mají akci střílet
+    Akce střílet má odpočinkový časovač "cooldown" který musí klesnout na nulu,
+
+      aby mohla být robotem znova provedena
+
+    Roboti mají omezený počet životů
+    Pokud je robot trefen projektilem jiného robota ztrácí život, a je oživen v náhodném dostupném bodě arény
+    Robot po oživení má pár sekund nesmrtelnosti
+    Pokud robot ztratí všechny životy je vyřazen ze hry a není už oživován
+    Robot se může pohybovat skrz vlastní kulky bez ztracení jednoho z vlastních životů
+
+
+    Roboti mají předek, kde mají kanón, ze kterého střílí projektily směrem od sebe
+    Roboti mohou otáčet tento předek určenou rychlostí
+    Roboti mají k dispozici informace o tom, co se okolo nich nachází, pouze ve směru jejich předku
+
+
+    Pohyb robota je dynamický a má možnost se pohybovat 4 směry a to: nahoru, dolů, doprava a doleva
+    Tyto směry jsou určeny z pohledu kamery, nikoliv z předku robota
+    Robot tyto pohyby může kombinovat pro diagonální pohyb
+
+
+    Robot má schopnost "dash" která robotovy přidá hybnost pro pohyb směrem kterým směřuje
+    Schopnost dash má odpočinkový časovač cooldown
+    Pro použití schopnosti dash musí cooldown klesnout na nulu a robot musí být v pohybu
+
+
+    po mapě v náhodných intervalech se budou objevovat speciální objekty neboli "powerups"
+    Pokud robot tímto powerupem koliduje tak na omezený čas dostane speciální efekt a objekt zmizí
+    Tyto efekty můžou být například zkrácení určitého cooldownu nebo zrychlení určitého pohybu 
+
+      jako například rychlost projektilu nebo samotného robota
+
+    Tyto efekty můžou být i negativní a mít opačné účinky
+    Po určitém čase tyto objekty sami zmizí i bez kolize robota
+
+
+    Hra začíná rozpoložením robotů v předurčených lokacích
+    Roboti hned potom dostávají volnost ovládání
+    S počátkem se začíná odpočítávat časový limit
+    Hra končí buď tím že zbývá pouze 1 nebo míň robotů nebo vypršením časového limitu
+
+
+    Roboti jsou pak skórování podle toho:
+
+       zda byly poslední na živu
+       kolik jiných robotů porazili
+       kolik jim zbívalo životů
+      a jak dlouho dokázaly zůstat při životě
+
+    Nejlepší roboti jsou pak vybráni dle skóre pro šlechtění a vytváření nové generace
+
+
+
+S pozdravem,
+
+Martin Pavlík
+
+
+
+
