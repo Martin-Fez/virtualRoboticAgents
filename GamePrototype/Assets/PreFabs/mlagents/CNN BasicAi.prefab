@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8374881227903698231
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2396987164531289682, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2511964564555339802, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: m_BehaviorName
+      value: CnnAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 2511964564555339802, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2511964564555339802, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230239357065659782, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: m_Name
+      value: CNN BasicAi
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241564393591993355, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: dashed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241564393591993355, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 2556781661968800430}
+    - target: {fileID: 4241564393591993355, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: MaxViewRange
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241564393591993355, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: dashCooldown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241564393591993355, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: maxMoveSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241564393591993355, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: IsCameraBased
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241564393591993355, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: maxDashCooldown
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241564393591993355, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: currentMaxMoveSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063123745109058081, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.013962
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063123745109058081, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3751564
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063123745109058081, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 16.542334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063123745109058081, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7016683
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063123745109058081, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063123745109058081, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.71250373
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063123745109058081, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063123745109058081, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063123745109058081, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90.878
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063123745109058081, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117241269036425149, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3230239357065659782, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 313916422260614873}
+    - targetCorrespondingSourceObject: {fileID: 3230239357065659782, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2556781661968800430}
+  m_SourcePrefab: {fileID: 100100000, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+--- !u!20 &1656211009609865866 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7117241269036425149, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+  m_PrefabInstance: {fileID: 8374881227903698231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6407940084928807089 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3230239357065659782, guid: 64d15a3a36c4f2b4a9eefc33f315cdd8, type: 3}
+  m_PrefabInstance: {fileID: 8374881227903698231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &313916422260614873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6407940084928807089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 282f342c2ab144bf38be65d4d0c4e07d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.ML-Agents::Unity.MLAgents.Sensors.CameraSensorComponent
+  m_Camera: {fileID: 1656211009609865866}
+  m_SensorName: CameraSensor
+  m_Width: 84
+  m_Height: 84
+  m_Grayscale: 1
+  m_ObservationType: 0
+  m_RuntimeCameraEnable: 0
+  m_ObservationStacks: 2
+  m_Compression: 1
+--- !u!143 &2556781661968800430
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6407940084928807089}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 1
+  m_Radius: 0.49999997
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}

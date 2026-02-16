@@ -1,0 +1,80 @@
+{
+    "timerNeededToSee": {
+        "lesson_num": 4
+    },
+    "obstacles": {
+        "lesson_num": 0
+    },
+    "MemoryAgent": {
+        "checkpoints": [
+            {
+                "steps": 18499945,
+                "file_path": "results\\memory02\\MemoryAgent\\MemoryAgent-18499945.onnx",
+                "reward": 2.1687499694526196,
+                "creation_time": 1766851521.7530177,
+                "auxillary_file_paths": [
+                    "results\\memory02\\MemoryAgent\\MemoryAgent-18499945.pt"
+                ]
+            },
+            {
+                "steps": 18999983,
+                "file_path": "results\\memory02\\MemoryAgent\\MemoryAgent-18999983.onnx",
+                "reward": 2.3599999780456224,
+                "creation_time": 1766853505.371588,
+                "auxillary_file_paths": [
+                    "results\\memory02\\MemoryAgent\\MemoryAgent-18999983.pt"
+                ]
+            },
+            {
+                "steps": 19499939,
+                "file_path": "results\\memory02\\MemoryAgent\\MemoryAgent-19499939.onnx",
+                "reward": -0.00909090448509563,
+                "creation_time": 1766855465.3310559,
+                "auxillary_file_paths": [
+                    "results\\memory02\\MemoryAgent\\MemoryAgent-19499939.pt"
+                ]
+            },
+            {
+                "steps": 19999979,
+                "file_path": "results\\memory02\\MemoryAgent\\MemoryAgent-19999979.onnx",
+                "reward": 0.8777778206600083,
+                "creation_time": 1766857392.4193125,
+                "auxillary_file_paths": [
+                    "results\\memory02\\MemoryAgent\\MemoryAgent-19999979.pt"
+                ]
+            },
+            {
+                "steps": 20006405,
+                "file_path": "results\\memory02\\MemoryAgent\\MemoryAgent-20006405.onnx",
+                "reward": 1.3411764997769804,
+                "creation_time": 1766857418.0374484,
+                "auxillary_file_paths": [
+                    "results\\memory02\\MemoryAgent\\MemoryAgent-20006405.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 20006405,
+            "file_path": "results\\memory02\\MemoryAgent.onnx",
+            "reward": 1.3411764997769804,
+            "creation_time": 1766857418.0374484,
+            "auxillary_file_paths": [
+                "results\\memory02\\MemoryAgent\\MemoryAgent-20006405.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.2.2+cu121"
+    },
+    "counts": {
+        "lesson_num": 0
+    },
+    "turrets": {
+        "lesson_num": 0
+    },
+    "test": {
+        "lesson_num": 0
+    }
+}

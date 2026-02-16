@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Targeting : MonoBehaviour
 {
-    // Start is called before the first frame update
     public GameObject host; // turret enemy
 
 

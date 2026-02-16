@@ -5,14 +5,41 @@ EditorUserSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 4
   m_ConfigSettings:
+    GraphicsSettingsInspector_UserSettings:
+      value: 18134705175a055722080a3115371d4a0d55006876786860616b0471b8b07a68ffab74f9ee2a3a30300cea1a11320d0beb1a0c25f7060f494b4cdf1b18f3045e38cb5ad8
+      flags: 0
     RecentlyUsedSceneGuid-0:
-      value: 005307555d515f020e5c5c7749770a444e4e1a7f7b2b76337f2d4b62e6b7306c
+      value: 575003000104590e5f59582747745944124f4a727f2b71322b7d1965b0e56c39
       flags: 0
     RecentlyUsedSceneGuid-1:
-      value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
+      value: 5b52050552020d035f5d5e7b15210d44174e1e7b2d2a7035287e4860bab3666e
       flags: 0
     RecentlyUsedSceneGuid-2:
-      value: 5257515154565e5f540d587b127a0944144f4c297c2b23687b781f65e0b6626f
+      value: 0202575f030608035e0d0e7716750f44474e1b282f7f75317b781837bab26268
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 01545654060c5e095c5f5e2647720744101541797a2b7e362e714a60e0b8316c
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 5653035606545109540f5d7548725b44154e1e737b2e236329791b36b1e33561
+      flags: 0
+    RecentlyUsedSceneGuid-5:
+      value: 5700505254050d02585d082316760d4410151e2b797b76637d2d4532b0b73769
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 5b0806045d0d085d595a0975427b064442151b797d7e72342c7e1f63b1b06568
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+      value: 54040d53500d5d0809560f2348745e44444f4e2b757d23642f2c1e66b2b43139
+      flags: 0
+    RecentlyUsedSceneGuid-8:
+      value: 5100075756065e08095d5f7715255d444e161e2f78792263757e4f63b3e66661
+      flags: 0
+    RecentlyUsedSceneGuid-9:
+      value: 50020c025401080e0b5b0f7716255b44474e1a292f2d7e3379784a6bbbb9373a
+      flags: 0
+    lightmappingBakingProfile:
+      value: 51
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
@@ -33,3 +60,4 @@ EditorUserSettings:
   m_VCAllowAsyncUpdate: 1
   m_VCScanLocalPackagesOnConnect: 1
   m_ArtifactGarbageCollection: 1
+  m_CompressAssetsOnImport: 1

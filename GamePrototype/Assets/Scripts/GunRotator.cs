@@ -8,13 +8,9 @@ public class GunRotator : MonoBehaviour
     public float startAngle;
     public bool rotating;
     public float rotateDuration;
-    // Serializefiel makes private variables visible in the inspectior
-    // public variable can be accessed from outside of it's class
-    // private you know wait why am I typing this? I know this stuff
-    //you type to not get bored or smth idk
+
     [SerializeField]
     private float counter;
-
     private float _xAngle;
     public float xAngle 
     { 
@@ -24,8 +20,6 @@ public class GunRotator : MonoBehaviour
         }
         set
         {
-            // Here happens some magic.
-            // We store the angle to startAngle. _xAngle will be our goal angle
             startAngle = transform.localRotation.eulerAngles.x;
             _xAngle = value;
             rotating = true;
@@ -35,7 +29,6 @@ public class GunRotator : MonoBehaviour
     }
 
 
-    // Update is called once per frame
     void Update()
     {
         counter += Time.deltaTime;
@@ -43,8 +36,7 @@ public class GunRotator : MonoBehaviour
         {
             rotating = false;
         }
-        // rotating code, we "Animate" currentAngle value
-        currentAngle = Mathf.LerpAngle(startAngle, xAngle, counter / rotateDuration); // Quternion tomfuckery
+        currentAngle = Mathf.LerpAngle(startAngle, xAngle, counter / rotateDuration); 
         transform.localEulerAngles = new Vector3(currentAngle,0,0);
     }
 }

@@ -40,3 +40,16 @@ The following packages were updated:
   com.unity.collab-proxy from version 1.13.5 to 2.4.4
   com.unity.timeline from version 1.6.2 to 1.7.6
   com.unity.visualscripting from version 1.7.6 to 1.9.4
+
+=== Fri Oct 17 19:46:27 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.multiplayer.center@1.0.0
+The following packages were updated:
+  com.unity.ai.navigation from version 2.0.8 to 2.0.9
+  com.unity.collab-proxy from version 2.5.1 to 2.9.3
+  com.unity.timeline from version 1.8.6 to 1.8.9
+  com.unity.visualscripting from version 1.9.4 to 1.9.7

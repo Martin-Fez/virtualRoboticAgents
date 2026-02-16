@@ -1,0 +1,77 @@
+{
+    "obstacles": {
+        "lesson_num": 10
+    },
+    "ResNetAgent": {
+        "checkpoints": [
+            {
+                "steps": 5999964,
+                "file_path": "results\\resnet\\ResNetAgent\\ResNetAgent-5999964.onnx",
+                "reward": 62.833333333333336,
+                "creation_time": 1766592095.278799,
+                "auxillary_file_paths": [
+                    "results\\resnet\\ResNetAgent\\ResNetAgent-5999964.pt"
+                ]
+            },
+            {
+                "steps": 6499985,
+                "file_path": "results\\resnet\\ResNetAgent\\ResNetAgent-6499985.onnx",
+                "reward": null,
+                "creation_time": 1766595503.5035985,
+                "auxillary_file_paths": [
+                    "results\\resnet\\ResNetAgent\\ResNetAgent-6499985.pt"
+                ]
+            },
+            {
+                "steps": 6521751,
+                "file_path": "results\\resnet\\ResNetAgent\\ResNetAgent-6521751.onnx",
+                "reward": null,
+                "creation_time": 1766596180.0987027,
+                "auxillary_file_paths": [
+                    "results\\resnet\\ResNetAgent\\ResNetAgent-6521751.pt"
+                ]
+            },
+            {
+                "steps": 6999941,
+                "file_path": "results\\resnet\\ResNetAgent\\ResNetAgent-6999941.onnx",
+                "reward": 6.900000071525573,
+                "creation_time": 1766622299.7731638,
+                "auxillary_file_paths": [
+                    "results\\resnet\\ResNetAgent\\ResNetAgent-6999941.pt"
+                ]
+            },
+            {
+                "steps": 7480506,
+                "file_path": "results\\resnet\\ResNetAgent\\ResNetAgent-7480506.onnx",
+                "reward": 7.0499999649822715,
+                "creation_time": 1766625746.3383627,
+                "auxillary_file_paths": [
+                    "results\\resnet\\ResNetAgent\\ResNetAgent-7480506.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 7480506,
+            "file_path": "results\\resnet\\ResNetAgent.onnx",
+            "reward": 7.0499999649822715,
+            "creation_time": 1766625746.3383627,
+            "auxillary_file_paths": [
+                "results\\resnet\\ResNetAgent\\ResNetAgent-7480506.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.2.2+cu121"
+    },
+    "timerNeededToSee": {
+        "lesson_num": 10
+    },
+    "counts": {
+        "lesson_num": 0
+    },
+    "test": {
+        "lesson_num": 0
+    }
+}

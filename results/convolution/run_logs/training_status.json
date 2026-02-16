@@ -1,0 +1,77 @@
+{
+    "timerNeededToSee": {
+        "lesson_num": 7
+    },
+    "obstacles": {
+        "lesson_num": 7
+    },
+    "CnnAgent": {
+        "checkpoints": [
+            {
+                "steps": 7320804,
+                "file_path": "results\\convolution\\CnnAgent\\CnnAgent-7320804.onnx",
+                "reward": 58.77500000037253,
+                "creation_time": 1766357428.7409918,
+                "auxillary_file_paths": [
+                    "results\\convolution\\CnnAgent\\CnnAgent-7320804.pt"
+                ]
+            },
+            {
+                "steps": 7499981,
+                "file_path": "results\\convolution\\CnnAgent\\CnnAgent-7499981.onnx",
+                "reward": 4.999999992549419,
+                "creation_time": 1766428636.6237357,
+                "auxillary_file_paths": [
+                    "results\\convolution\\CnnAgent\\CnnAgent-7499981.pt"
+                ]
+            },
+            {
+                "steps": 7999995,
+                "file_path": "results\\convolution\\CnnAgent\\CnnAgent-7999995.onnx",
+                "reward": 6.299999952316284,
+                "creation_time": 1766433239.407962,
+                "auxillary_file_paths": [
+                    "results\\convolution\\CnnAgent\\CnnAgent-7999995.pt"
+                ]
+            },
+            {
+                "steps": 8499967,
+                "file_path": "results\\convolution\\CnnAgent\\CnnAgent-8499967.onnx",
+                "reward": -0.02000003457069397,
+                "creation_time": 1766437357.315815,
+                "auxillary_file_paths": [
+                    "results\\convolution\\CnnAgent\\CnnAgent-8499967.pt"
+                ]
+            },
+            {
+                "steps": 8973787,
+                "file_path": "results\\convolution\\CnnAgent\\CnnAgent-8973787.onnx",
+                "reward": 0.33636361225084827,
+                "creation_time": 1766441135.1151574,
+                "auxillary_file_paths": [
+                    "results\\convolution\\CnnAgent\\CnnAgent-8973787.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8973787,
+            "file_path": "results\\convolution\\CnnAgent.onnx",
+            "reward": 0.33636361225084827,
+            "creation_time": 1766441135.1151574,
+            "auxillary_file_paths": [
+                "results\\convolution\\CnnAgent\\CnnAgent-8973787.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.2.2+cu121"
+    },
+    "counts": {
+        "lesson_num": 0
+    },
+    "test": {
+        "lesson_num": 0
+    }
+}

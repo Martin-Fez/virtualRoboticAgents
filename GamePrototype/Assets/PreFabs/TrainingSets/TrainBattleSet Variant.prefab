@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7650704536211613799
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3994818571342142248, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+      propertyPath: bulletSpeed
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994818571342142248, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+      propertyPath: TrainManager
+      value: 
+      objectReference: {fileID: 5462947240279038004}
+    - target: {fileID: 3994818571342142248, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+      propertyPath: BulletLifeSpan
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994818571342142248, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+      propertyPath: shootCooldownMax
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024020758237453678, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024020758237453678, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024020758237453678, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024020758237453678, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024020758237453678, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024020758237453678, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024020758237453678, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024020758237453678, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024020758237453678, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024020758237453678, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4685637647745253010, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+      propertyPath: TrainManager
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6550392265521531801, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+      propertyPath: m_Name
+      value: TrainBattleSet Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6745416212890641541, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+      propertyPath: BulletLifeSpan
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4183023666392839399, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+    - {fileID: 7345979731593189442, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7344579642190630805, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5462947240279038004}
+  m_SourcePrefab: {fileID: 100100000, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+--- !u!1 &1135456281671919602 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7344579642190630805, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+  m_PrefabInstance: {fileID: 7650704536211613799}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5462947240279038004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135456281671919602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9fc9e3e3874a784a8a45217c99eca9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacles:
+  - {fileID: 411128249718485439, guid: c8a4fbf300231a3438c6c1925f619a7c, type: 3}
+  - {fileID: 3790523763292849149, guid: 3c54b5938f509c84e9d314620d0e257d, type: 3}
+  - {fileID: 4028911099984455876, guid: b72fee7f09b155d45828c2392fc51559, type: 3}
+  - {fileID: 6516626743319096525, guid: 9078285dea28b7040852986db77eae73, type: 3}
+  - {fileID: 871562769924510237, guid: 754b6e9c3389b244b9f273c510307411, type: 3}
+  NumberOfObjects: 30
+  basePlate: {fileID: 7072811905685049164}
+  obstacleDistance: 10
+  GenCheckMax: 500
+  agentObject: {fileID: 3908415876504275802, guid: a3bb8f6ba958abc4894785b7b3695a0f, type: 3}
+  agent: {fileID: 0}
+  goal: {fileID: 0}
+  NumOfGoals: 1
+  GridParent: {fileID: 2483860853572955081}
+  gridPoints: []
+  gridTimer: []
+  currentGridIndex: 0
+  hasGrid: 0
+  ObjectHeight: 3
+  agentHeight: 4
+  InternalTimer: 600
+  EnemyBattleObject: {fileID: 7292693918606023563, guid: bf3883d272343c243bde318ce1f9f4bc, type: 3}
+  EnemyCount: 4
+--- !u!1 &2483860853572955081 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5211985784221598638, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+  m_PrefabInstance: {fileID: 7650704536211613799}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7072811905685049164 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 579679889949337387, guid: 5fdf9ad4ad6cd284d881f81e45166a1c, type: 3}
+  m_PrefabInstance: {fileID: 7650704536211613799}
+  m_PrefabAsset: {fileID: 0}

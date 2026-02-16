@@ -1,0 +1,90 @@
+{
+    "block_offset": {
+        "lesson_num": 0
+    },
+    "MemoryAgent": {
+        "checkpoints": [
+            {
+                "steps": 37499940,
+                "file_path": "results\\memory\\MemoryAgent\\MemoryAgent-37499940.onnx",
+                "reward": -5.671428698514189,
+                "creation_time": 1765869986.7715533,
+                "auxillary_file_paths": [
+                    "results\\memory\\MemoryAgent\\MemoryAgent-37499940.pt"
+                ]
+            },
+            {
+                "steps": 37999949,
+                "file_path": "results\\memory\\MemoryAgent\\MemoryAgent-37999949.onnx",
+                "reward": -7.270000223815441,
+                "creation_time": 1765872409.2392342,
+                "auxillary_file_paths": [
+                    "results\\memory\\MemoryAgent\\MemoryAgent-37999949.pt"
+                ]
+            },
+            {
+                "steps": 38499995,
+                "file_path": "results\\memory\\MemoryAgent\\MemoryAgent-38499995.onnx",
+                "reward": -6.55454562807625,
+                "creation_time": 1765874830.805793,
+                "auxillary_file_paths": [
+                    "results\\memory\\MemoryAgent\\MemoryAgent-38499995.pt"
+                ]
+            },
+            {
+                "steps": 38999976,
+                "file_path": "results\\memory\\MemoryAgent\\MemoryAgent-38999976.onnx",
+                "reward": -6.875000125418107,
+                "creation_time": 1765877252.4191875,
+                "auxillary_file_paths": [
+                    "results\\memory\\MemoryAgent\\MemoryAgent-38999976.pt"
+                ]
+            },
+            {
+                "steps": 39179828,
+                "file_path": "results\\memory\\MemoryAgent\\MemoryAgent-39179828.onnx",
+                "reward": -6.968750145751983,
+                "creation_time": 1765878134.910891,
+                "auxillary_file_paths": [
+                    "results\\memory\\MemoryAgent\\MemoryAgent-39179828.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 39179828,
+            "file_path": "results\\memory\\MemoryAgent.onnx",
+            "reward": -6.968750145751983,
+            "creation_time": 1765878134.910891,
+            "auxillary_file_paths": [
+                "results\\memory\\MemoryAgent\\MemoryAgent-39179828.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.2.2+cu121"
+    },
+    "CnnAgent": {
+        "checkpoints": [
+            {
+                "steps": 0,
+                "file_path": "results\\memory\\CnnAgent\\CnnAgent-0.onnx",
+                "reward": null,
+                "creation_time": 1766010024.3247042,
+                "auxillary_file_paths": [
+                    "results\\memory\\CnnAgent\\CnnAgent-0.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 0,
+            "file_path": "results\\memory\\CnnAgent.onnx",
+            "reward": null,
+            "creation_time": 1766010024.3247042,
+            "auxillary_file_paths": [
+                "results\\memory\\CnnAgent\\CnnAgent-0.pt"
+            ]
+        }
+    }
+}

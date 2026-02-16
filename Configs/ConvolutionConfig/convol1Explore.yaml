@@ -1,0 +1,125 @@
+behaviors:
+  MemoryAgent:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 2048
+      buffer_size: 20480
+      learning_rate: 3.0e-4
+      beta: 0.005
+      epsilon: 0.2
+      lambd: 0.95
+      num_epoch: 3
+    network_settings:
+      num_layers: 2
+      hidden_units: 256
+      normalize: true
+      memory:
+        memory_size: 256
+        sequence_length: 64
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 1.0
+      curiosity:
+        strength: 0.8
+        gamma: 0.99
+        encoding_size: 256
+        learning_rate: 3.0e-4
+    keep_checkpoints: 5
+    max_steps: 200000000
+    time_horizon: 64
+    summary_freq: 5000
+
+behaviors:
+  CnnAgent:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 1024
+      buffer_size: 10240
+      learning_rate: 3.0e-4
+      beta: 0.01
+      epsilon: 0.2
+      lambd: 0.95
+      num_epoch: 3
+    network_settings:
+      vis_encode_type: nature_cnn
+      num_layers: 2
+      hidden_units: 128
+      normalize: true
+      memory:
+        memory_size: 256
+        sequence_length: 64
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 1.0
+      curiosity:
+        strength: 1
+        gamma: 0.99
+        encoding_size: 256
+        learning_rate: 3.0e-4
+    keep_checkpoints: 5
+    max_steps: 200000000
+    time_horizon: 64
+    summary_freq: 5000
+
+environment_parameters:
+  obstacles:
+    curriculum:
+      - name: exploreLesson00 
+        completion_criteria: 
+          measure: reward
+          behavior: CnnAgent   
+          signal_smoothing: true
+          min_lesson_length: 50
+          threshold: 3
+        value: 0  
+      - name: exploreLesson01 
+        completion_criteria: 
+          measure: reward
+          behavior: CnnAgent   
+          signal_smoothing: true
+          min_lesson_length: 50
+          threshold: 3
+        value: 10        
+      - name: exploreLesson02 
+        completion_criteria: 
+          measure: reward
+          behavior: CnnAgent   
+          signal_smoothing: true
+          min_lesson_length: 100
+          threshold: 3
+        value: 20    
+      - name: exploreLesson03 
+        completion_criteria: 
+          measure: reward
+          behavior: CnnAgent   
+          signal_smoothing: true
+          min_lesson_length: 100
+          threshold: 3
+        value: 30  
+      - name: exploreLesson04 
+        completion_criteria: 
+          measure: reward
+          behavior: CnnAgent   
+          signal_smoothing: true
+          min_lesson_length: 100
+          threshold: 2
+        value: 40  
+      - name: exploreLesson05
+        completion_criteria: 
+          measure: reward
+          behavior: CnnAgent   
+          signal_smoothing: true
+          min_lesson_length: 100
+          threshold: 2
+        value: 50  
+      - name: exploreLesson06
+        completion_criteria: 
+          measure: reward
+          behavior: CnnAgent   
+          signal_smoothing: true
+          min_lesson_length: 100
+          threshold: 3
+        value: 60  
+      
