@@ -1,4 +1,5 @@
-# Bachelor thesis
+# virtualRoboticAgents - Mlagents, heuristic agent, and environments for training mlagents
+
 Martin Pavlík
 
 ## medium of contents
