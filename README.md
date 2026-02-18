@@ -1,6 +1,19 @@
 # virtualRoboticAgents - Mlagents, heuristic agent, and environments for training mlagents
 
-Martin Pavlík
+made by Martin Pavlík
+
+## video showcase of project
+
+Showcase of the state-based heuristic agent:  
+https://youtu.be/u4qRCemL4K8?si=DBew-uEhd74JTiqY
+  
+[![Heuristic agent video link](https://img.youtube.com/vi/u4qRCemL4K8/maxresdefault.jpg)](https://www.youtube.com/watch?v=u4qRCemL4K8)
+
+Showcase of the mlagents training and testing:  
+ 
+https://youtu.be/-fUplDEv3V8 
+[![Mlagents video link](https://img.youtube.com/vi/-fUplDEv3V8/maxresdefault.jpg)](https://youtu.be/-fUplDEv3V8)
+
 
 ## medium of contents
 - Configs..................Contains config folders and files of the trained models  
